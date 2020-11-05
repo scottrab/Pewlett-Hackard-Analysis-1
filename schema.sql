@@ -50,3 +50,7 @@ FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 );
 
 SELECT * FROM departments;
+
+-- to drop a table
+DROP TABLE salaries
+
